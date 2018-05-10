@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+.p1{ /*small title*/
+	text-shadow: aqua;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.input{
+	color: #cccccc;
+}

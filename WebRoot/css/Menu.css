@@ -1,0 +1,40 @@
+body{
+margin-left: 0;	
+}
+.menu_list{margin:0px auto;width:100%;}
+.menu_head{width:100%;
+height:32px; /*菜单栏宽度*/  
+line-height:38px;
+padding-left:24px;
+font-size:12px;/*一级菜单字体大小*/
+color:#525252;
+cursor:pointer;
+border:1px solid #e1e1e1;
+position:relative;
+font-weight:bold;
+background:#f1f1f1  center right no-repeat;
+margin:0px;}
+.menu_list .current{background:#f1f1f1  center right no-repeat;}
+.menu_body{width:100%;
+height:auto;
+overflow:hidden;
+line-height:32px;
+border-left:1px solid #e1e1e1;
+backguound:#fff;
+border-right:0px solid #e1e1e1;
+}
+.menu_body a{display:block;
+width:100%;
+height:32px;
+line-height:32px;
+padding-left:38px;
+color:#777777;
+background:#fff;
+font-size:11px;/*二级菜单字体大小*/
+text-decoration:none;
+border-bottom:0px solid #e1e1e1;}
+.menu_body a:hover{
+	text-decoration:none;
+	background: #e1eef8;/*old #fbf8e9*/
+	border-bottom:1px #a8caf8 solid;  /* add 2015.6.29 the color of the border-bottom blue*/
+}
